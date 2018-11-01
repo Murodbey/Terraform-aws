@@ -14,3 +14,11 @@ variable "amis" {
     us-east-2 = "ami-0b59bfac6be064b78"
   }
 }
+
+variable "Environment" {
+  default = "Dev"
+}
+
+variable "Created_by" {
+  default = "Murodbey"
+}
